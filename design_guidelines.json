@@ -1,0 +1,207 @@
+{
+  "theme": "dark_primary_with_golden_amber_accents",
+  "persona_summary": "E1 High-Conversion Luxury Nightlife & Convenience Experience for MV Conveniência (São José de Ribamar & Pitangueiras). Combining sleek midnight dark surfaces with glowing neon amber/gold accents, tactile bento product showcases, rapid WhatsApp comanda ordering, and a discreet, high-utility admin control center.",
+  "colors": {
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#0B0D12",
+        "on_bg": "#F8FAFC",
+        "on_bg_muted": "#94A3B8"
+      },
+      {
+        "name": "panel",
+        "kind": "solid",
+        "bg": "#131722",
+        "on_bg": "#F8FAFC",
+        "on_bg_muted": "#94A3B8"
+      },
+      {
+        "name": "card_elevated",
+        "kind": "solid",
+        "bg": "#1A1F2E",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#A1A1AA"
+      },
+      {
+        "name": "inverse",
+        "kind": "solid",
+        "bg": "#F8FAFC",
+        "on_bg": "#0B0D12",
+        "on_bg_muted": "#475569"
+      },
+      {
+        "name": "hero",
+        "kind": "image",
+        "contrast_against": "#0B0D12",
+        "guarantee": "scrim: linear-gradient(180deg, rgba(11,13,18,0.88) 0%, rgba(11,13,18,0.96) 100%)",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#CBD5E1",
+        "roles": {
+          "link": "#F59E0B",
+          "error": "#EF4444",
+          "success": "#10B981"
+        }
+      },
+      {
+        "name": "glass_nav",
+        "kind": "glass",
+        "contrast_against": "#0B0D12",
+        "guarantee": "backdrop-blur-xl bg-[#0B0D12]/80 border-b border-amber-500/20",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#94A3B8"
+      },
+      {
+        "name": "badge_gold",
+        "kind": "solid",
+        "bg": "#F59E0B",
+        "on_bg": "#000000",
+        "on_bg_muted": "#1F1500"
+      },
+      {
+        "name": "badge_emerald",
+        "kind": "solid",
+        "bg": "#059669",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#D1FAE5"
+      },
+      {
+        "name": "badge_out_of_stock",
+        "kind": "solid",
+        "bg": "#DC2626",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#FEE2E2"
+      }
+    ],
+    "accent": "#F59E0B",
+    "on_accent": "#000000",
+    "accent_hover": "#D97706",
+    "whatsapp_green": "#25D366",
+    "on_whatsapp": "#FFFFFF",
+    "border_subtle": "rgba(245, 158, 11, 0.15)",
+    "border_card": "rgba(255, 255, 255, 0.08)"
+  },
+  "typography": {
+    "font_family_heading": "Outfit Variable, sans-serif",
+    "font_family_body": "Plus Jakarta Sans Variable, sans-serif",
+    "font_family_mono": "JetBrains Mono Variable, monospace",
+    "import_statements": [
+      "@import \"@fontsource-variable/outfit\";",
+      "@import \"@fontsource-variable/plus-jakarta-sans\";",
+      "@import \"@fontsource-variable/jetbrains-mono\";"
+    ],
+    "scale_px": {
+      "display": 56,
+      "h1": 42,
+      "h2": 32,
+      "h3": 24,
+      "body": 16,
+      "caption": 14
+    },
+    "rules": {
+      "headings": "font-heading font-black tracking-tight text-slate-100",
+      "body": "font-sans font-normal leading-relaxed text-slate-300",
+      "labels": "uppercase tracking-[0.18em] text-xs font-semibold text-amber-400",
+      "price": "font-mono font-bold text-amber-400 tracking-tight"
+    }
+  },
+  "entry_surfaces": {
+    "/": "split hero — brand banner + store selector (SJR vs Pitangueiras) & fast CTA left, seeded featured combos & cold drinks grid right",
+    "/admin": "discreet security panel — single master password prompt with branded obsidian vault badge",
+    "/admin/dashboard": "tactical command center — product management with photo/camera upload, stock toggles, combo maker, store WhatsApp settings"
+  },
+  "image_urls": {
+    "hero_banner": "https://images.unsplash.com/photo-1765991564151-5b37e4bd7be8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwyfHxjb2xkJTIwYmVlciUyMGJvdHRsZXMlMjBpY2UlMjBiYXJ8ZW58MHx8fHwxNzkzMTM4ODk1fDA&ixlib=rb-4.1.0&q=85",
+    "beer_combo": "https://images.unsplash.com/photo-1642647237318-3e30ff181a3c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwzfHxjb2xkJTIwYmVlciUyMGJvdHRsZXMlMjBpY2UlMjBiYXJ8ZW58MHx8fHwxNzkzMTM4ODk1fDA&ixlib=rb-4.1.0&q=85",
+    "whiskey_liquor": "https://images.unsplash.com/photo-1580537922571-ca7180cd700e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwyfHx3aGlza2V5JTIwYm90dGxlJTIwZ2luJTIwbGlxdW9yfGVufDB8fHx8MTc5MzEzODg5NXww&ixlib=rb-4.1.0&q=85",
+    "gin_tonic": "https://images.unsplash.com/photo-1663738797534-d9c327516967?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHw0fHx3aGlza2V5JTIwYm90dGxlJTIwZ2luJTIwbGlxdW9yfGVufDB8fHx8MTc5MzEzODg5NXww&ixlib=rb-4.1.0&q=85",
+    "champagne_ice": "https://images.unsplash.com/photo-1774814129847-cc9ce65c5b79?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHw0fHxjb2xkJTIwYmVlciUyMGJvdHRsZXMlMjBpY2UlMjBiYXJ8ZW58MHx8fHwxNzkzMTM4ODk1fDA&ixlib=rb-4.1.0&q=85",
+    "snacks_chips": "https://images.unsplash.com/photo-1699666397768-0126340e880a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwzfHxzbmFjayUyMGNoaXBzJTIwcGFydHklMjBmb29kfGVufDB8fHx8MTc5MzEzODg5NXww&ixlib=rb-4.1.0&q=85"
+  },
+  "grids_and_layouts": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "bento_featured": "grid grid-cols-1 md:grid-cols-12 gap-4 lg:gap-6",
+    "product_catalog_grid": "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-5",
+    "cart_drawer": "mobile bottom sheet modal (swipeable feel) & desktop right slide-over Sheet",
+    "admin_dashboard_grid": "grid grid-cols-1 lg:grid-cols-12 gap-6"
+  },
+  "motion": {
+    "page_transitions": "fade and slight slide (y: 6px to 0, opacity 0 to 1)",
+    "card_hover": "transition-all duration-200 hover:-translate-y-1 hover:border-amber-500/40 hover:shadow-lg hover:shadow-amber-500/5",
+    "cart_bounce": "scale micro-interaction upon item addition (scale 0.95 -> 1.05 -> 1.0)",
+    "prefers_reduced_motion": "All motion hooks must degrade to immediate opacity transitions when prefers-reduced-motion is active"
+  },
+  "accessibility": {
+    "wcag_level": "WCAG AA compliant",
+    "contrast_rule": "Every text foreground strictly adheres to >= 4.5:1 against its parent surface token",
+    "data_testid_policy": "All interactive elements (buttons, inputs, filters, badges, cart controls, admin rows, checkout actions) MUST have explicit kebab-case data-testid attributes",
+    "focus_states": "focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:outline-none"
+  },
+  "key_components": [
+    {
+      "name": "HeaderNav",
+      "path": "frontend/src/components/HeaderNav.tsx",
+      "description": "Sticky crystal glass header with MV Logo (mvlogo.png fallback with glowing MV mark), store selector toggle (MV de SJR | MV de Pitangueiras), category quick pills, and floating cart button with live badge counter. Subtle discreet lock icon for /admin."
+    },
+    {
+      "name": "HeroCombosSection",
+      "path": "frontend/src/components/HeroCombosSection.tsx",
+      "description": "High-impact visual banner highlighting current promotions, geladas trincando, combos especiais, and delivery alert for São José de Ribamar."
+    },
+    {
+      "name": "CategoryFilter",
+      "path": "frontend/src/components/CategoryFilter.tsx",
+      "description": "Smooth horizontal scrolling category filter pills (Todas, Combos, Cervejas, Destilados, Vinhos & Espumantes, Gelo & Carvão, Petiscos & Snacks, Refrigerantes & Energéticos, Tabacaria/Outros) with search input."
+    },
+    {
+      "name": "ProductCard",
+      "path": "frontend/src/components/ProductCard.tsx",
+      "description": "E-commerce card with high-res photo, 'Destaque' golden badge, 'Combo' badge, 'Esgotado' overlay when stock=0, formatted BRL price (R$ XX,XX), plus/minus quantity controls or direct 'Adicionar' button."
+    },
+    {
+      "name": "CartDrawer",
+      "path": "frontend/src/components/CartDrawer.tsx",
+      "description": "Mobile bottom-sheet / desktop drawer with item list, subtotal, delivery vs retirada selector, São José de Ribamar address input validation, store WhatsApp destination switcher, and 'Finalizar Pedido via WhatsApp' CTA."
+    },
+    {
+      "name": "CheckoutModal",
+      "path": "frontend/src/components/CheckoutModal.tsx",
+      "description": "Smooth checkout modal collecting: Customer Name, Phone, Delivery Type (Retirada na Loja SJR / Retirada Pitangueiras / Delivery em SJR), Address + Complemento + Bairro (with reminder 'Apenas entregas em São José de Ribamar'), Payment Method (Pix, Cartão de Crédito/Débito na entrega, Dinheiro com campo de troco). Generates formatted WhatsApp text comanda and auto-opens WhatsApp API link + saves order record in database."
+    },
+    {
+      "name": "AdminProductModal",
+      "path": "frontend/src/components/admin/AdminProductModal.tsx",
+      "description": "Form for creating/editing products with Name, Category, Price, Description, Stock count, InStock boolean, Featured boolean, Combo boolean, and Photo with Instant Camera snapshot option, File Upload (base64/dataURL or server URL), or preset URL."
+    },
+    {
+      "name": "AdminOrdersList",
+      "path": "frontend/src/components/admin/AdminOrdersList.tsx",
+      "description": "Real-time list of customer orders with status tabs (Novo, Em Preparo, Saiu para Entrega, Concluído, Cancelado), WhatsApp quick re-send, and details modal."
+    },
+    {
+      "name": "AdminSettings",
+      "path": "frontend/src/components/admin/AdminSettings.tsx",
+      "description": "Management of WhatsApp numbers for 'MV de SJR' and 'MV de Pitangueiras', store opening hours, delivery fee note ('A combinar no WhatsApp'), and master admin password update."
+    }
+  ],
+  "whatsapp_comanda_template": {
+    "description": "Exact format of the automated WhatsApp comanda sent upon order completion",
+    "structure": "🍻 *NOVO PEDIDO - MV CONVENIÊNCIA*\n━━━━━━━━━━━━━━━━━━━━\n📍 *Unidade:* {store_name}\n🛵 *Tipo:* {order_type} (Retirada / Delivery SJR)\n\n👤 *Cliente:* {customer_name}\n📱 *Telefone:* {customer_phone}\n🏠 *Endereço:* {address} - {neighborhood} ({notes})\n\n🛒 *ITENS DO PEDIDO:*\n{items_list_with_quantities_and_prices}\n\n━━━━━━━━━━━━━━━━━━━━\n💰 *Subtotal:* R$ {subtotal}\n🛵 *Taxa de Entrega:* A combinar no WhatsApp\n💳 *Forma de Pagamento:* {payment_method} {change_info}\n━━━━━━━━━━━━━━━━━━━━\n🕒 *Horário do Pedido:* {order_timestamp}\n\n_Por favor, confirme o pedido e informe o tempo estimado de entrega!_"
+  },
+  "instructions_to_main_agent": [
+    "1. MOBILE-FIRST MASTERY: Test layouts on 375px-430px widths. Mobile shopping is the #1 priority. Bottom sticky cart bar and thumb-friendly buttons.",
+    "2. PERSISTENCE GUARANTEE: In MongoDB (backend/lib/db.py & backend/routers/products.py), ensure all products, orders, and settings are strictly persisted. Use idempotent seed script backend/seed.py so initial rich catalog (combos, cervejas trincando, whiskies, petiscos) is always seeded on startup without deleting newly created admin items.",
+    "3. SÃO JOSÉ DE RIBAMAR LOCATION INTEGRATION: Pre-populate neighborhood list (Bairros de SJR: Centro de SJR, Pitangueiras, Araçagi, Panaquatira, Sede, J. Câmara, Parque Jair, etc.) in delivery dropdown to give authentic local feel and ensure 'Apenas entregas em São José de Ribamar' is clear.",
+    "4. DUAL STORE HANDLING: Allow user to switch between 'MV Conveniência - Centro SJR' and 'MV Conveniência - Pitangueiras'. Each unit has its configured WhatsApp number in the store settings.",
+    "5. DISCREET ADMIN: Subtle lock or footer link at '/admin'. Single password login stored safely, with pre-configured default password (e.g., 'mv1234') that can be changed in Admin Settings.",
+    "6. PRODUCT IMAGES & CAMERA: Support direct file upload/drag-drop AND WebRTC device camera capture right in the Admin Product Modal so owners can take a photo of cold beers/combos directly from their phone in the store.",
+    "7. COMPLETE TESTING IDS: Add data-testid to every button, filter, cart counter, checkout input, and admin control."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Dark colors look good when used independently without muddy gradients. Use structural obsidian (#0B0D12, #131722, #1A1F2E) with crisp amber-gold accents.",
+    "Never apply universal transition: all. Use specific transition-colors, transition-transform.",
+    "Use sonner for instant toast feedback ('Item adicionado ao carrinho!', 'Pedido gerado com sucesso!', 'Produto salvo!')",
+    "Use Shadcn UI components from @/components/ui/ customized with Tailwind tokens."
+  ]
+}
